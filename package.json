@@ -1,0 +1,38 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "A web scraper using Hono, TypeScript, and OpenAI's ChatGPT",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [
+    "web-scraper",
+    "hono",
+    "typescript",
+    "openai",
+    "chatgpt"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@hono/node-server": "^1.13.1",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.3.1",
+    "hono": "^4.2.0",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "packageManager": "pnpm@8.8.0"
+}

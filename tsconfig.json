@@ -1,0 +1,49 @@
+{
+  // Specify the root of the project
+  "compilerOptions": {
+    // Target latest ECMAScript version
+    "target": "ES2023",
+
+    // Use Node.js ESM module resolution
+    "module": "NodeNext",
+
+    // Resolve modules according to Node.js ESM rules
+    "moduleResolution": "NodeNext",
+
+    // Output directory for compiled JavaScript
+    "outDir": "dist",
+
+    // Root directory of TypeScript source files
+    "rootDir": "src",
+
+    // Enable strict type-checking options
+    "strict": true,
+
+    // Generate source maps for debugging
+    "sourceMap": true,
+
+    // Allow default imports from modules with no default export
+    "esModuleInterop": true,
+
+    // Allow importing modules with a default export
+    "allowSyntheticDefaultImports": true,
+
+    // Skip type checking of all declaration files (*.d.ts)
+    "skipLibCheck": true,
+
+    // Ensure that casing is correct in imports
+    "forceConsistentCasingInFileNames": true,
+
+    // Allow importing JSON modules
+    "resolveJsonModule": true,
+
+    // Specify type definitions to include
+    "types": []
+  },
+
+  // Include all TypeScript files in the src directory and its subdirectories
+  "include": ["src/**/*"],
+
+  // Exclude node_modules from the compilation
+  "exclude": ["node_modules"]
+}
