@@ -58,3 +58,5 @@ pnpm-lock.yaml
 # Temporary files
 tmp/
 temp/
+
+scrapes/
